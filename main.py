@@ -35,5 +35,5 @@ def upload(imgPath=None, result="None"):
 
 if __name__ == '__main__':
     # 使你的服务器公开可用，WIN+R-> cmd -> ipconfig/all 可以看见主机名：在任意电脑输入 主机名:5000 即可看到效果
-    app.run(host='127.0.0.1', debug=True, port='8888')
-    # app.run(host='0.0.0.0', debug=True, port=8888)
+    # app.run(host='127.0.0.1', debug=True, port='8888')
+    app.run(host='0.0.0.0', debug=True, port=8888)
